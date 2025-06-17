@@ -1,0 +1,44 @@
+body {
+  margin: 10px;
+  font-family: Merienda, cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.paragraph{
+  color: rgb(245, 141, 137);
+  text-align: center;
+}
+img{
+  /* width: 400px;
+  height: 250px;
+  margin: 10px;
+  border: 2px solid rgb(39, 126, 31); */
+  border-radius: 8px;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box{
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid rgb(255, 108, 108);
+  align-content: center;
+}
+button{
+    border-radius: 6px;
+    border: 1px solid rgb(255, 108, 108);
+    background-color: #ff9f9f;
+    color: white;
+    padding: 6px;
+    margin: 6px;
+}
