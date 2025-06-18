@@ -2,7 +2,7 @@ const moogoose = require("mongoose");
 
 moogoose
    .connect(
-      "mongodb+srv://axadishaqofficial:mxa0DRGDhac80Pt4@cluster0.jelct1a.mongodb.net/MyProducts"
+      "mongodb conntection string/MyProducts"
    )
    .then(() => {
       console.log("Connected to MongoDB");
